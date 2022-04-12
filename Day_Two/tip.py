@@ -6,4 +6,5 @@ each = ((total + (total*(tip/100))) / guests)
 print('Each person should pay $' + str(round(each, 2)))
 
 # Angela's Code
-# 
+# this format code specifies how many decimals even if Zeros
+# print(f"Each person should pay $" + str("{:.2f}.format(each)
