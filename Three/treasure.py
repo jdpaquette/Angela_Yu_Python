@@ -20,5 +20,9 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 /______/______/______/______/______/______/______/______/______/______/_____ /
 *******************************************************************************
 ''')
-print("Welcome to our Treasure Hunt.")
+print("Welcome to Treasure Island.")
 print("Do you have what it takes to survive and find the treasure?")
+direction = input('Do you want to go left or right? ')
+if direction == 'right':
+    print("You fall into a hole. GAME OVER")
+elif direction == 'left':
