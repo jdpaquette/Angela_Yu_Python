@@ -21,8 +21,26 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 *******************************************************************************
 ''')
 print("Welcome to Treasure Island.")
+print('Your mission is to find the treasure.')
 print("Do you have what it takes to survive and find the treasure?")
-direction = input('Do you want to go left or right? ')
-if direction == 'right':
+direction = input('You are at a cross road. Where do you want to go? Type: left or right \n').lower()
+
+if direction == 'left':
+    swim = input('You come to a lake. There is an island in the middle of the lake. Type "wait" to wait for a boat. Type "swim" to swim across.\n').lower()
+    if swim == 'wait':
+        color = input('You arrive at the island unharmed. There is a house with three doors. One red, one yellow, and one blue. Which color do you choose?\n').lower()
+        if color == 'red':
+            print('The room is filled with fire. You are burned alive. GAME OVER!')
+        elif color == 'blue':
+            print('You are eaten by beasts. GAME OVER!')
+        elif color == 'yellow':
+            print('You found the treasure. YOU WIN!')
+        else:
+            print('You must have picked a magical door. You explode. GAME OVER!')
+    else:
+        print('You were attacked by a Gator. GAME OVER!')
+else:
     print("You fall into a hole. GAME OVER")
-elif direction == 'left':
+
+
+
