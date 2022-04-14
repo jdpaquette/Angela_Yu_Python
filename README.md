@@ -1,6 +1,6 @@
 # 100 Days of Code: Complete Python Bootcamp 2022
 
-## Dr. Angela Yu
+### Dr. Angela Yu - London App Brewery
 
 ### Week 1: April 11 - 17
 
