@@ -41,3 +41,29 @@ for score in student_scores:
         high_score = score
 print(f'The highest score in the class is: {high_score}')
 
+# Loops using range
+for number in range(1, 11): # need to go up one i.e. to 11 to get 1 through 10
+    print(number)
+
+total = 0
+for number in range(2, 101, 2): # add all even number between 1 and 100 (must start at two)
+    total += number
+print(total)
+
+# optional
+total2 = 0
+for number in range(1, 101, 2): # using modulo
+    if number % 2 == 0:
+        total2 += number
+print(total2)
+
+# FizzBuzz
+for number in range(1, 101):
+    if number % 3 == 0 and number % 5 == 0:
+        print('FizzBuzz')
+    elif number % 3 == 0:
+        print('Fizz')
+    elif number % 5 == 0:
+        print('Buzz')
+    else:
+        print(number)
