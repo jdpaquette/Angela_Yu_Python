@@ -60,3 +60,18 @@ while not at_goal():
         move()
     else:
         jump()
+# Reeborg's World Maze ---- Infinite Loop issue in some cases
+# Come back after Day 15 and debug all possibilities
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+
+while not at_goal():
+    if right_is_clear():
+        turn_right()
+        move()
+    elif front_is_clear():
+        move()
+    else:
+        turn_left()
