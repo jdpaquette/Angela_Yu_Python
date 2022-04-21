@@ -10,5 +10,10 @@
 - Day Two - Basic Tip Calculator
 - Three - Starter Tresure Hunter - text-based game.
 - Four - Rock, Paper, Scissors
+- Five - Password Generator
+- Six - Reeborg's World Maze
+- Seven - Hangman Game
 
 ### Week 2 April 18 - 24
+
+- Eight -
