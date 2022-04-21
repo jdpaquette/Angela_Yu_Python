@@ -8,12 +8,13 @@
 
 - Day One - Band Name Generator
 - Day Two - Basic Tip Calculator
-- Three - Starter Tresure Hunter - text-based game.
-- Four - Rock, Paper, Scissors
-- Five - Password Generator
-- Six - Reeborg's World Maze
-- Seven - Hangman Game
+- Three - Starter Tresure Hunter - text-based game. (if / else)
+- Four - Rock, Paper, Scissors (random / list position)
+- Five - Password Generator (for loops & nested if / else statements)
+- Six - Reeborg's World Maze (functions)
+- Seven - Hangman Game (for loops / while loops and nesting)
 
 ### Week 2 April 18 - 24
 
-- Eight -
+- Eight - Caesar Cipher (functions, import variables from other files)
+- Nine - Silent Auction (lists, dictionaries, nesting)
