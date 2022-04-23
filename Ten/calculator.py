@@ -41,6 +41,19 @@ for symbol in symbols:
 operator = input('Pick an operation symbol from above: ')
 num2 = int(input('What is the second number? '))
 calculation_function = symbols[operator]
-answer = calculation_function(num1, num2)
+first_answer = calculation_function(num1, num2)
 
-print(f'{num1} {operator} {num2} = {answer}')
+print(f'{num1} {operator} {num2} = {first_answer}')
+
+# Here we select "*" which overides the "+" we selected previously.
+operator = input('Pick an operation symbol from above: ')
+num3 = int(input('What is the next number? '))
+
+# Here the calculation_function selected will be the multiply() function
+calculation_function = symbols[operator]
+
+# Here the code will be:
+# second_answer = multiply(multiply(num1, num2), num3)
+second_answer = calculation_function(first_answer, num3)
+
+print(f"{first_answer} {operation_symbol} {num3} = {second_answer}")
