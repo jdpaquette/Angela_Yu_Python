@@ -36,10 +36,11 @@ symbols = {
     '/': 'divide',
 }
 num1 = int(input('What is the first number? '))
-num2 = int(input('What is the second number? '))
-for keys, values in symbols.items():
-    print(f'{keys} {values}')
+for symbol in symbols:
+    print(symbol)
 operator = input('Pick an operation symbol from above: ')
-
+num2 = int(input('What is the second number? '))
+calculation_function = symbols[operator]
+answer = calculation_function(num1, num2)
 
 print(f'{num1} {operator} {num2} = {answer}')
