@@ -18,3 +18,5 @@
 
 - Eight - Caesar Cipher (functions, import variables from other files)
 - Nine - Silent Auction (lists, dictionaries, nesting)
+- Ten - Calculator App (functions with outputs - multiple returns)
+-
